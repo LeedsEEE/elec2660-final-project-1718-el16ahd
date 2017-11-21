@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="vl5-7K-LWw">
             <objects>
-                <viewController id="5UW-mD-hrV" sceneMemberID="viewController">
+                <viewController id="5UW-mD-hrV" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DL3-ea-KLc"/>
                         <viewControllerLayoutGuide type="bottom" id="xPG-ok-WEc"/>

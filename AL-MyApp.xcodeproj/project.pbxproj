@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4A221FBB1FC355B100335A89 /* WorldMapImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A221FBA1FC355B100335A89 /* WorldMapImage.png */; };
+		4A4685171FC47CD7000CE8E6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4685161FC47CD7000CE8E6 /* DetailViewController.m */; };
+		4A46851A1FC482DA000CE8E6 /* Wonder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4685191FC482DA000CE8E6 /* Wonder.m */; };
+		4A46851D1FC483ED000CE8E6 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46851C1FC483ED000CE8E6 /* DataModel.m */; };
 		4AB2A2281FBCCD9A001EAD8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2A2271FBCCD9A001EAD8E /* main.m */; };
 		4AB2A22B1FBCCD9A001EAD8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2A22A1FBCCD9A001EAD8E /* AppDelegate.m */; };
 		4AB2A22E1FBCCD9A001EAD8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2A22D1FBCCD9A001EAD8E /* ViewController.m */; };
@@ -37,6 +40,12 @@
 
 /* Begin PBXFileReference section */
 		4A221FBA1FC355B100335A89 /* WorldMapImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WorldMapImage.png; sourceTree = "<group>"; };
+		4A4685151FC47CD7000CE8E6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4A4685161FC47CD7000CE8E6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4A4685181FC482DA000CE8E6 /* Wonder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wonder.h; sourceTree = "<group>"; };
+		4A4685191FC482DA000CE8E6 /* Wonder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wonder.m; sourceTree = "<group>"; };
+		4A46851B1FC483ED000CE8E6 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		4A46851C1FC483ED000CE8E6 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		4AB2A2231FBCCD9A001EAD8E /* AL-MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AL-MyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB2A2271FBCCD9A001EAD8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AB2A2291FBCCD9A001EAD8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,15 +112,21 @@
 		4AB2A2251FBCCD9A001EAD8E /* AL-MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				4AB2A2291FBCCD9A001EAD8E /* AppDelegate.h */,
-				4AB2A22A1FBCCD9A001EAD8E /* AppDelegate.m */,
+				4AB2A2341FBCCD9A001EAD8E /* LaunchScreen.storyboard */,
+				4AB2A22F1FBCCD9A001EAD8E /* Main.storyboard */,
+				4A46851B1FC483ED000CE8E6 /* DataModel.h */,
+				4A46851C1FC483ED000CE8E6 /* DataModel.m */,
+				4A4685181FC482DA000CE8E6 /* Wonder.h */,
+				4A4685191FC482DA000CE8E6 /* Wonder.m */,
 				4AB2A22C1FBCCD9A001EAD8E /* ViewController.h */,
 				4AB2A22D1FBCCD9A001EAD8E /* ViewController.m */,
-				4AB2A22F1FBCCD9A001EAD8E /* Main.storyboard */,
+				4A4685151FC47CD7000CE8E6 /* DetailViewController.h */,
+				4A4685161FC47CD7000CE8E6 /* DetailViewController.m */,
 				4AB2A2321FBCCD9A001EAD8E /* Assets.xcassets */,
-				4A221FBA1FC355B100335A89 /* WorldMapImage.png */,
-				4AB2A2341FBCCD9A001EAD8E /* LaunchScreen.storyboard */,
+				4AB2A2291FBCCD9A001EAD8E /* AppDelegate.h */,
+				4AB2A22A1FBCCD9A001EAD8E /* AppDelegate.m */,
 				4AB2A2371FBCCD9A001EAD8E /* Info.plist */,
+				4A221FBA1FC355B100335A89 /* WorldMapImage.png */,
 				4AB2A2261FBCCD9A001EAD8E /* Supporting Files */,
 			);
 			path = "AL-MyApp";
@@ -279,7 +294,10 @@
 			files = (
 				4AB2A22E1FBCCD9A001EAD8E /* ViewController.m in Sources */,
 				4AB2A22B1FBCCD9A001EAD8E /* AppDelegate.m in Sources */,
+				4A4685171FC47CD7000CE8E6 /* DetailViewController.m in Sources */,
 				4AB2A2281FBCCD9A001EAD8E /* main.m in Sources */,
+				4A46851A1FC482DA000CE8E6 /* Wonder.m in Sources */,
+				4A46851D1FC483ED000CE8E6 /* DataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
