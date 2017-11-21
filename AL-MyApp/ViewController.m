@@ -26,6 +26,9 @@
 }
 
 
+// 2) Below are the corresponding codes of the buttons on the home screen.
+//    pressing the button will activate the code inside the curly brackets.
+
 - (IBAction)MachuButton:(UIButton *)sender {
 }
 
