@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Wonder.h"
+
 
 @interface DetailViewController : UIViewController
+
+
+@property (weak, nonatomic) IBOutlet UILabel *NameLabel;
+
 
 @end
