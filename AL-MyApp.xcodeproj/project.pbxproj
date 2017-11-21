@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A221FBB1FC355B100335A89 /* WorldMapImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A221FBA1FC355B100335A89 /* WorldMapImage.png */; };
 		4AB2A2281FBCCD9A001EAD8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2A2271FBCCD9A001EAD8E /* main.m */; };
 		4AB2A22B1FBCCD9A001EAD8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2A22A1FBCCD9A001EAD8E /* AppDelegate.m */; };
 		4AB2A22E1FBCCD9A001EAD8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2A22D1FBCCD9A001EAD8E /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A221FBA1FC355B100335A89 /* WorldMapImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WorldMapImage.png; sourceTree = "<group>"; };
 		4AB2A2231FBCCD9A001EAD8E /* AL-MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AL-MyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB2A2271FBCCD9A001EAD8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AB2A2291FBCCD9A001EAD8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				4AB2A22D1FBCCD9A001EAD8E /* ViewController.m */,
 				4AB2A22F1FBCCD9A001EAD8E /* Main.storyboard */,
 				4AB2A2321FBCCD9A001EAD8E /* Assets.xcassets */,
+				4A221FBA1FC355B100335A89 /* WorldMapImage.png */,
 				4AB2A2341FBCCD9A001EAD8E /* LaunchScreen.storyboard */,
 				4AB2A2371FBCCD9A001EAD8E /* Info.plist */,
 				4AB2A2261FBCCD9A001EAD8E /* Supporting Files */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB2A2361FBCCD9A001EAD8E /* LaunchScreen.storyboard in Resources */,
+				4A221FBB1FC355B100335A89 /* WorldMapImage.png in Resources */,
 				4AB2A2331FBCCD9A001EAD8E /* Assets.xcassets in Resources */,
 				4AB2A2311FBCCD9A001EAD8E /* Main.storyboard in Resources */,
 			);
@@ -507,6 +511,7 @@
 				4AB2A2521FBCCD9A001EAD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AB2A2531FBCCD9A001EAD8E /* Build configuration list for PBXNativeTarget "AL-MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				4AB2A2551FBCCD9A001EAD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AB2A2561FBCCD9A001EAD8E /* Build configuration list for PBXNativeTarget "AL-MyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				4AB2A2581FBCCD9A001EAD8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
