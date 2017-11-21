@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)ChichenButton:(UIButton *)sender;
+- (IBAction)ColosseumButton:(UIButton *)sender;
+- (IBAction)GreatButton:(UIButton *)sender;
+- (IBAction)MachuButton:(UIButton *)sender;
+- (IBAction)PyramidsButton:(UIButton *)sender;
+- (IBAction)PetraButton:(UIButton *)sender;
 
 @end
 

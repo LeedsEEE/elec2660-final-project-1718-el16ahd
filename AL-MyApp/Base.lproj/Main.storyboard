@@ -21,21 +21,39 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qua-e7-GQm">
                                 <state key="normal" title="ChichenButton" image="ChichenButton"/>
+                                <connections>
+                                    <action selector="ChichenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HvY-cV-8pZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTt-Uw-9y9">
                                 <state key="normal" title="ColosseumButton" image="ColosseumButton"/>
+                                <connections>
+                                    <action selector="ColosseumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zkc-kM-2ax"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpg-dn-t4t">
                                 <state key="normal" title="GreatButton" image="GreatButton"/>
+                                <connections>
+                                    <action selector="GreatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3c-iN-OYD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz8-rn-vE4">
                                 <state key="normal" title="MachuButton" image="MachuButton"/>
+                                <connections>
+                                    <action selector="MachuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2pk-Ia-fGd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9z9-Ms-PPj">
                                 <state key="normal" title="PyramidsButton" image="PyramidsButton"/>
+                                <connections>
+                                    <action selector="PyramidsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4C-3J-uBy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWg-KA-QWx">
                                 <state key="normal" title="PetraButton" image="PetraButton"/>
+                                <connections>
+                                    <action selector="PetraButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sie-L3-z8J"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WorldMapImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="owl-gj-oMp"/>
                         </subviews>
