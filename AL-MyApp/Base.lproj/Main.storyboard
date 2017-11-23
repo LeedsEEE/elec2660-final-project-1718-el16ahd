@@ -37,7 +37,7 @@
                                 <state key="normal" title="GreatButton" image="GreatButton"/>
                                 <connections>
                                     <action selector="GreatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3c-iN-OYD"/>
-                                    <segue destination="5UW-mD-hrV" kind="show" identifier="GreatWall" id="0d0-mq-Gnt"/>
+                                    <segue destination="5UW-mD-hrV" kind="show" identifier="GreatSegue" id="0d0-mq-Gnt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz8-rn-vE4">
@@ -154,6 +154,6 @@
         <image name="WorldMapImage.png" width="776" height="466"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="J3F-og-t1F"/>
+        <segue reference="0d0-mq-Gnt"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -35,6 +35,7 @@
         Great.Location = @"China";
         Great.Year = @"700 BC";
         Great.Info = @"More info to be inserted here";
+        
         self.WonderArray = [NSMutableArray array];
         Wonder *Machu = [[Wonder alloc] init];
         Machu.Name = @"Machu Picchu";
@@ -57,7 +58,7 @@
         Petra.Info = @"More info to be inserted here";
         
         [self.WonderArray addObject:Chichen]; //Pyramids saved at 0 index.
-        [self.WonderArray addObject:Colosseum]; //Pyramids saved at 0 index.
+        [self.WonderArray addObject:Colosseum]; //Pyramids saved at 1 index.
         [self.WonderArray addObject:Great]; //Pyramids saved at 0 index.
         [self.WonderArray addObject:Machu]; //Pyramids saved at 0 index.
         [self.WonderArray addObject:Pyramids]; //Pyramids saved at 0 index.
