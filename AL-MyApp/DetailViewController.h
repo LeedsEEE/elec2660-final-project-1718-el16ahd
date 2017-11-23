@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "Wonder.h"
+#import "DataModel.h"
+
 
 
 @interface DetailViewController : UIViewController
 
-
 @property (weak, nonatomic) IBOutlet UILabel *NameLabel;
-
+@property (strong, nonatomic) Wonder *wonder;
 
 @end

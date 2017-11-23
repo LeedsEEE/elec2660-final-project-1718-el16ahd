@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
+#import "DataModel.h"
+#import "Wonder.h"
 
 @interface ViewController : UIViewController
 
@@ -20,6 +23,8 @@
 - (IBAction)MachuButton:(UIButton *)sender;
 - (IBAction)PyramidsButton:(UIButton *)sender;
 - (IBAction)PetraButton:(UIButton *)sender;
+
+@property (strong, nonatomic) DataModel *data;
 
 @end
 
