@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
@@ -18,10 +17,7 @@
     [super viewDidLoad]; // Do any additional setup after loading the view, typically from a nib.
     
     self.data = [[DataModel alloc]init];
-    
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -29,12 +25,11 @@
 }
 
 
-
 // 2) Below are the corresponding codes of the buttons on the home screen.
 //    pressing the button will activate the code inside the curly brackets.
 
 
-#pragma mark - Navigation
+#pragma mark - Button pressed segues
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 

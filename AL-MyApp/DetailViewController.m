@@ -19,7 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-   self.NameLabel.text = self.wonder.Name;
+    self.NameLabel.text = self.wonder.Name;
+    self.LocationLabel.text = self.wonder.Location;
+    self.YearLabel.text = self.wonder.Year;
+    self.InfoLabel.text = self.wonder.Info;
     
 }
 

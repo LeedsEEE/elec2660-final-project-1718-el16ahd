@@ -23,47 +23,47 @@
                                 <state key="normal" title="ChichenButton" image="ChichenButton"/>
                                 <connections>
                                     <action selector="ChichenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HvY-cV-8pZ"/>
-                                    <segue destination="5UW-mD-hrV" kind="show" identifier="ChichenSegue" id="yDv-MI-ETb"/>
+                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="ChichenSegue" modalTransitionStyle="partialCurl" id="yDv-MI-ETb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTt-Uw-9y9">
                                 <state key="normal" title="ColosseumButton" image="ColosseumButton"/>
                                 <connections>
                                     <action selector="ColosseumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zkc-kM-2ax"/>
-                                    <segue destination="5UW-mD-hrV" kind="show" identifier="ColosseumSegue" id="J3F-og-t1F"/>
+                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="ColosseumSegue" modalTransitionStyle="partialCurl" id="J3F-og-t1F"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpg-dn-t4t">
                                 <state key="normal" title="GreatButton" image="GreatButton"/>
                                 <connections>
                                     <action selector="GreatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3c-iN-OYD"/>
-                                    <segue destination="5UW-mD-hrV" kind="show" identifier="GreatSegue" id="0d0-mq-Gnt"/>
+                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="GreatSegue" modalTransitionStyle="partialCurl" id="0d0-mq-Gnt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz8-rn-vE4">
                                 <state key="normal" title="MachuButton" image="MachuButton"/>
                                 <connections>
                                     <action selector="MachuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2pk-Ia-fGd"/>
-                                    <segue destination="5UW-mD-hrV" kind="show" identifier="MachuSegue" id="K09-lh-K3a"/>
+                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="MachuSegue" modalTransitionStyle="partialCurl" id="K09-lh-K3a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9z9-Ms-PPj">
                                 <state key="normal" title="PyramidsButton" image="PyramidsButton"/>
                                 <connections>
                                     <action selector="PyramidsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4C-3J-uBy"/>
-                                    <segue destination="5UW-mD-hrV" kind="show" identifier="PyramidsSegue" id="EDu-b8-dyT"/>
+                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="PyramidsSegue" modalTransitionStyle="partialCurl" id="EDu-b8-dyT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWg-KA-QWx">
                                 <state key="normal" title="PetraButton" image="PetraButton"/>
                                 <connections>
                                     <action selector="PetraButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sie-L3-z8J"/>
-                                    <segue destination="5UW-mD-hrV" kind="show" identifier="PetraSegue" id="1tm-i9-MNB"/>
+                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="PetraSegue" modalTransitionStyle="partialCurl" id="1tm-i9-MNB"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WorldMapImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="owl-gj-oMp"/>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hWg-KA-QWx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="233" id="0sy-pu-OFY"/>
                             <constraint firstItem="owl-gj-oMp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-18" id="9GD-Jh-eIp"/>
@@ -113,38 +113,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1S-15-BFA">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1S-15-BFA">
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" red="0.90196078431372551" green="0.41176470588235292" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drD-dj-O8t">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="E1Y-DW-dwj"/>
+                                    <constraint firstAttribute="width" constant="12" id="nOw-V6-tiD"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="BackButton"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="partialCurl" id="BPo-Bw-rm3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAh-xq-IhY">
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <color key="textColor" red="0.90196078431372551" green="0.41960784313725491" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-qv-FFZ">
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drD-dj-O8t">
-                                <frame key="frameInset" minX="16" minY="15" width="25" height="47"/>
-                                <state key="normal" title="Button" image="BackButton"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="BPo-Bw-rm3"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPi-c2-GTe">
+                                <frame key="frameInset" minX="16" minY="70" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <color key="textColor" red="0.90196078431372551" green="0.41176470588235292" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="kAh-xq-IhY" secondAttribute="trailing" id="0Aa-d2-1mj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="drD-dj-O8t" secondAttribute="leading" id="1Ui-wd-xiF"/>
                             <constraint firstItem="y1S-15-BFA" firstAttribute="centerX" secondItem="uQC-OQ-sAS" secondAttribute="centerX" id="1xk-Gt-bWN"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="drD-dj-O8t" secondAttribute="leading" id="L82-jX-Njg"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="NPi-c2-GTe" secondAttribute="leading" id="C35-pi-6v8"/>
+                            <constraint firstItem="kAh-xq-IhY" firstAttribute="top" secondItem="DL3-ea-KLc" secondAttribute="bottom" constant="50" id="Grt-5i-HT0"/>
+                            <constraint firstItem="drD-dj-O8t" firstAttribute="top" secondItem="DL3-ea-KLc" secondAttribute="bottom" constant="8" id="TFy-gW-lPM"/>
+                            <constraint firstItem="NPi-c2-GTe" firstAttribute="top" secondItem="DL3-ea-KLc" secondAttribute="bottom" constant="50" id="WHg-eC-46c"/>
                             <constraint firstItem="y1S-15-BFA" firstAttribute="top" secondItem="DL3-ea-KLc" secondAttribute="bottom" constant="8" id="Xie-bJ-zrf"/>
-                            <constraint firstItem="drD-dj-O8t" firstAttribute="top" secondItem="DL3-ea-KLc" secondAttribute="bottom" constant="10" id="x0e-Ht-gJ3"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="c1G-qv-FFZ" secondAttribute="leading" id="lCk-e9-NGE"/>
+                            <constraint firstItem="xPG-ok-WEc" firstAttribute="top" secondItem="c1G-qv-FFZ" secondAttribute="bottom" constant="114" id="peJ-re-wJt"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="8Id-ff-Nd2"/>
                     <connections>
+                        <outlet property="InfoLabel" destination="c1G-qv-FFZ" id="McG-qu-pYP"/>
+                        <outlet property="LocationLabel" destination="NPi-c2-GTe" id="NfO-eO-bsf"/>
                         <outlet property="NameLabel" destination="y1S-15-BFA" id="Z0S-4z-4w8"/>
+                        <outlet property="YearLabel" destination="kAh-xq-IhY" id="yPn-QO-ABT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3i-s9-T5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848.79999999999995" y="38.23088455772114"/>
+            <point key="canvasLocation" x="924" y="35.532233883058474"/>
         </scene>
     </scenes>
     <resources>
-        <image name="BackButton" width="26" height="47"/>
+        <image name="BackButton" width="96" height="187"/>
         <image name="ChichenButton" width="125" height="125"/>
         <image name="ColosseumButton" width="125" height="125"/>
         <image name="GreatButton" width="125" height="125"/>
@@ -154,6 +183,6 @@
         <image name="WorldMapImage.png" width="776" height="466"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0d0-mq-Gnt"/>
+        <segue reference="yDv-MI-ETb"/>
     </inferredMetricsTieBreakers>
 </document>
