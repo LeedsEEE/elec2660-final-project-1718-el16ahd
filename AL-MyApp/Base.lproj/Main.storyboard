@@ -132,7 +132,7 @@
                                                 <color key="textColor" red="0.90196078431372551" green="0.41176470588235292" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-qv-FFZ">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-qv-FFZ">
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -161,7 +161,7 @@
                                             <constraint firstItem="NPi-c2-GTe" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="10" id="hek-hk-Cmv"/>
                                             <constraint firstItem="drD-dj-O8t" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="32" id="m7S-6H-rcK"/>
                                             <constraint firstItem="y1S-15-BFA" firstAttribute="centerX" secondItem="SK9-3G-Wrz" secondAttribute="centerX" id="uXt-On-Iep"/>
-                                            <constraint firstAttribute="bottom" secondItem="c1G-qv-FFZ" secondAttribute="bottom" constant="382" id="w7l-kL-gB4"/>
+                                            <constraint firstAttribute="bottom" secondItem="c1G-qv-FFZ" secondAttribute="bottom" constant="20" id="w7l-kL-gB4"/>
                                         </constraints>
                                     </view>
                                 </subviews>
