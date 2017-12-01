@@ -13,7 +13,6 @@
 
 @interface ViewController : UIViewController
 
-
 // 1) Connected the buttons in the storyboard to this file (ViewController.h) in order to get them to activate code
 //    which will be written in the ViewController.m
 
