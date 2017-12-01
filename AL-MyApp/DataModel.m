@@ -20,7 +20,8 @@
         Chichen.Name = @"Chichen Itza";
         Chichen.Location = @"Yucatan, Mexico";
         Chichen.Year = @"600 AD";
-        Chichen.Info = @"More Chichen info to be inserted here";
+        Chichen.Info = @"More Chichen info to be inserted here: This sacred site was one of the greatest Mayan centres of the Yucatán  peninsula. Throughout its nearly 1,000-year history, different peoples have left their mark on the city. The Maya and Toltec vision of the world and the universe is revealed in their stone monuments and artistic works. The fusion of Mayan construction techniques with new elements from central Mexico make Chichen-Itza one of the most important examples of the Mayan-Toltec civilization in Yucatán. Several buildings have survived, such as the Warriors’ Temple, El Castillo and the circular observatory known as El Caracol.";
+        // Chichen Itza info taken from http://whc.unesco.org/en/list/483 copied it just to test how it appears on detail view.
         
         self.WonderArray = [NSMutableArray array];
         Wonder *Colosseum = [[Wonder alloc] init];

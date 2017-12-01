@@ -132,8 +132,8 @@
                                                 <color key="textColor" red="0.90196078431372551" green="0.41176470588235292" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-qv-FFZ">
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1G-qv-FFZ">
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -156,11 +156,12 @@
                                             <constraint firstItem="y1S-15-BFA" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="30" id="PS4-Bd-IT0"/>
                                             <constraint firstAttribute="trailing" secondItem="kAh-xq-IhY" secondAttribute="trailing" constant="10" id="PZp-rq-Swp"/>
                                             <constraint firstItem="c1G-qv-FFZ" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="8" id="Pfe-mS-yfe"/>
-                                            <constraint firstItem="c1G-qv-FFZ" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="922" id="b83-9E-hgb"/>
+                                            <constraint firstAttribute="trailing" secondItem="c1G-qv-FFZ" secondAttribute="trailing" constant="8" id="aLS-EC-fEG"/>
+                                            <constraint firstItem="c1G-qv-FFZ" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="600" id="b83-9E-hgb"/>
                                             <constraint firstItem="NPi-c2-GTe" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="10" id="hek-hk-Cmv"/>
                                             <constraint firstItem="drD-dj-O8t" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="32" id="m7S-6H-rcK"/>
                                             <constraint firstItem="y1S-15-BFA" firstAttribute="centerX" secondItem="SK9-3G-Wrz" secondAttribute="centerX" id="uXt-On-Iep"/>
-                                            <constraint firstAttribute="bottom" secondItem="c1G-qv-FFZ" secondAttribute="bottom" constant="57.5" id="z33-Vj-dnt"/>
+                                            <constraint firstAttribute="bottom" secondItem="c1G-qv-FFZ" secondAttribute="bottom" constant="382" id="w7l-kL-gB4"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -193,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3i-s9-T5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="924" y="35.532233883058474"/>
+            <point key="canvasLocation" x="924" y="35.082458770614693"/>
         </scene>
     </scenes>
     <resources>
