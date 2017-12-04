@@ -14,6 +14,7 @@
 @end
 
 @implementation DetailViewController
+@synthesize  WonderName;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,6 +24,17 @@
     self.LocationLabel.text = self.wonder.Location;
     self.YearLabel.text = self.wonder.Year;
     self.InfoLabel.text = self.wonder.Info;
+    
+    if ([WonderName isEqualToString:@"ChichenSegue"]){
+        UIImage *ChichenImage = [UIImage imageNamed:@"ChichenImage.jpg"];
+        self.WonderImage.image = ChichenImage;
+    }
+    
+    if ([WonderName isEqualToString:@"ColosseumSegue"]){
+        UIImage *ChichenImage = [UIImage imageNamed:@"ColosseumImage.jpg"];
+        self.WonderImage.image = ChichenImage;
+    }
+    
     
 }
 

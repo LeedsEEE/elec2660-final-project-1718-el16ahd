@@ -147,6 +147,12 @@
                                                     <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="BPo-Bw-rm3"/>
                                                 </connections>
                                             </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vbU-hz-nNr">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="360" id="FWf-eP-eaT"/>
+                                                    <constraint firstAttribute="height" constant="360" id="QRI-cB-YJd"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -156,8 +162,10 @@
                                             <constraint firstItem="y1S-15-BFA" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="30" id="PS4-Bd-IT0"/>
                                             <constraint firstAttribute="trailing" secondItem="kAh-xq-IhY" secondAttribute="trailing" constant="10" id="PZp-rq-Swp"/>
                                             <constraint firstItem="c1G-qv-FFZ" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="8" id="Pfe-mS-yfe"/>
+                                            <constraint firstItem="vbU-hz-nNr" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="120" id="VSI-Aq-g29"/>
                                             <constraint firstAttribute="trailing" secondItem="c1G-qv-FFZ" secondAttribute="trailing" constant="8" id="aLS-EC-fEG"/>
                                             <constraint firstItem="c1G-qv-FFZ" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="600" id="b83-9E-hgb"/>
+                                            <constraint firstItem="vbU-hz-nNr" firstAttribute="centerX" secondItem="SK9-3G-Wrz" secondAttribute="centerX" id="dMc-M5-XU3"/>
                                             <constraint firstItem="NPi-c2-GTe" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="10" id="hek-hk-Cmv"/>
                                             <constraint firstItem="drD-dj-O8t" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="32" id="m7S-6H-rcK"/>
                                             <constraint firstItem="y1S-15-BFA" firstAttribute="centerX" secondItem="SK9-3G-Wrz" secondAttribute="centerX" id="uXt-On-Iep"/>
@@ -189,6 +197,7 @@
                         <outlet property="InfoLabel" destination="c1G-qv-FFZ" id="McG-qu-pYP"/>
                         <outlet property="LocationLabel" destination="NPi-c2-GTe" id="NfO-eO-bsf"/>
                         <outlet property="NameLabel" destination="y1S-15-BFA" id="Z0S-4z-4w8"/>
+                        <outlet property="WonderImage" destination="vbU-hz-nNr" id="fIU-i6-P3h"/>
                         <outlet property="YearLabel" destination="kAh-xq-IhY" id="yPn-QO-ABT"/>
                     </connections>
                 </viewController>

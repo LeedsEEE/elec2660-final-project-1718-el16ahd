@@ -40,38 +40,48 @@
     
     DetailViewController *DestinationViewController = [segue destinationViewController]; // "DestinationViewController" is the various object instances of the DetailViewController class
     
-    if ([[segue identifier] isEqualToString:@"ChichenSegue"])
-    {
+    if ([[segue identifier] isEqualToString:@"ChichenSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:0];
         DestinationViewController.wonder = tempWonder;
+        
+        self.SegueIdentifier = @"ChichenSegue"; // "SegueIdentifier" String is same as actual button's segue identifier for convenience
+        DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
-    if ([[segue identifier] isEqualToString:@"ColosseumSegue"])
-    {
+    
+    
+    if ([[segue identifier] isEqualToString:@"ColosseumSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:1];
         DestinationViewController.wonder = tempWonder;
+        
+        self.SegueIdentifier = @"ColosseumSegue"; // "SegueIdentifier" String is same as actual button's segue identifier for convenience
+        DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
-    if ([[segue identifier] isEqualToString:@"GreatSegue"])
-    {
+    
+    
+    if ([[segue identifier] isEqualToString:@"GreatSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:2];
         DestinationViewController.wonder = tempWonder;
     }
     
-    if ([[segue identifier] isEqualToString:@"MachuSegue"])
-    {
+    
+    
+    if ([[segue identifier] isEqualToString:@"MachuSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:3];
         DestinationViewController.wonder = tempWonder;
     }
     
-    if ([[segue identifier] isEqualToString:@"PyramidsSegue"])
-    {
+    
+    
+    if ([[segue identifier] isEqualToString:@"PyramidsSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:4];
         DestinationViewController.wonder = tempWonder;
     }
     
-    if ([[segue identifier] isEqualToString:@"PetraSegue"])
-    {
+    
+    
+    if ([[segue identifier] isEqualToString:@"PetraSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:5];
         DestinationViewController.wonder = tempWonder;
     }
