@@ -53,14 +53,16 @@
         Pyramids.Name = @"The Pyramids of Giza";
         Pyramids.Location = @"Giza, Egypt";
         Pyramids.Year = @"2560 BC";
-        Pyramids.Info = @"More Pyrmids info to be inserted here";
+        Pyramids.Info = @"More Pyrmids info to be inserted here: Built during a time when Egypt was one of the richest and most powerful civilizations in the world, the pyramids—especially the Great Pyramids of Giza—are some of the most magnificent man-made structures in history. Their massive scale reflects the unique role that the pharaoh, or king, played in ancient Egyptian society. Though pyramids were built from the beginning of the Old Kingdom to the close of the Ptolemaic period in the fourth century A.D., the peak of pyramid building began with the late third dynasty and continued until roughly the sixth (c. 2325 B.C.). More than 4,000 years later, the Egyptian pyramids still retain much of their majesty, providing a glimpse into the country’s rich and glorious past.";
+        // Pyramids of Giza info taken from http://www.history.com/topics/ancient-history/the-egyptian-pyramids copied it just for now, to test how it appears on detail view.
         
         self.WonderArray = [NSMutableArray array];
         Wonder *Petra = [[Wonder alloc] init];
         Petra.Name = @"Petra";
         Petra.Location = @"Ma'an, Jordan";
         Petra.Year = @"312 BC";
-        Petra.Info = @"More Petra info to be inserted here";
+        Petra.Info = @"More Petra info to be inserted here: Inhabited since prehistoric times, this Nabataean caravan-city, situated between the Red Sea and the Dead Sea, was an important crossroads between Arabia, Egypt and Syria-Phoenicia. Petra is half-built, half-carved into the rock, and is surrounded by mountains riddled with passages and gorges. It is one of the world's most famous archaeological sites, where ancient Eastern traditions blend with Hellenistic architecture.";
+        // Petra info taken from http://whc.unesco.org/en/list/326 copied it just for now, to test how it appears on detail view.
         
         [self.WonderArray addObject:Chichen]; //Pyramids saved at 0 index.
         [self.WonderArray addObject:Colosseum]; //Pyramids saved at 1 index.
