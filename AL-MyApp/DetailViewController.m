@@ -29,9 +29,24 @@
         UIImage *ChichenImage = [UIImage imageNamed:@"ChichenImage.jpg"];
         self.WonderImage.image = ChichenImage;
     }
-    
     if ([WonderName isEqualToString:@"ColosseumSegue"]){
         UIImage *ChichenImage = [UIImage imageNamed:@"ColosseumImage.jpg"];
+        self.WonderImage.image = ChichenImage;
+    }
+    if ([WonderName isEqualToString:@"GreatSegue"]){
+        UIImage *ChichenImage = [UIImage imageNamed:@"GreatImage.jpg"];
+        self.WonderImage.image = ChichenImage;
+    }
+    if ([WonderName isEqualToString:@"MachuSegue"]){
+        UIImage *ChichenImage = [UIImage imageNamed:@"MachuImage.jpg"];
+        self.WonderImage.image = ChichenImage;
+    }
+    if ([WonderName isEqualToString:@"PyramidsSegue"]){
+        UIImage *ChichenImage = [UIImage imageNamed:@"PyramidsImage.jpg"];
+        self.WonderImage.image = ChichenImage;
+    }
+    if ([WonderName isEqualToString:@"PetraSegue"]){
+        UIImage *ChichenImage = [UIImage imageNamed:@"PetraImage.jpg"];
         self.WonderImage.image = ChichenImage;
     }
     

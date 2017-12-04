@@ -54,7 +54,7 @@
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:1];
         DestinationViewController.wonder = tempWonder;
         
-        self.SegueIdentifier = @"ColosseumSegue"; // "SegueIdentifier" String is same as actual button's segue identifier for convenience
+        self.SegueIdentifier = @"ColosseumSegue";
         DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
@@ -63,6 +63,9 @@
     if ([[segue identifier] isEqualToString:@"GreatSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:2];
         DestinationViewController.wonder = tempWonder;
+        
+        self.SegueIdentifier = @"GreatSegue";
+        DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
     
@@ -70,6 +73,9 @@
     if ([[segue identifier] isEqualToString:@"MachuSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:3];
         DestinationViewController.wonder = tempWonder;
+        
+        self.SegueIdentifier = @"MachuSegue";
+        DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
     
@@ -77,6 +83,9 @@
     if ([[segue identifier] isEqualToString:@"PyramidsSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:4];
         DestinationViewController.wonder = tempWonder;
+        
+        self.SegueIdentifier = @"PyramidsSegue";
+        DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
     
@@ -84,6 +93,9 @@
     if ([[segue identifier] isEqualToString:@"PetraSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:5];
         DestinationViewController.wonder = tempWonder;
+        
+        self.SegueIdentifier = @"PetraSegue";
+        DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
 }
