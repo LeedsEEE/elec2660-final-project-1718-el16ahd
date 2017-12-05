@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -63,7 +63,7 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WorldMapImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="owl-gj-oMp"/>
                         </subviews>
-                        <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.80000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="tz8-rn-vE4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-15" id="8x3-Hj-Kcn"/>
                             <constraint firstItem="owl-gj-oMp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-18" id="9GD-Jh-eIp"/>
@@ -116,7 +116,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1S-15-BFA">
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                 <color key="textColor" red="0.90196078431372551" green="0.41176470588235292" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -132,18 +132,18 @@
                                                 </constraints>
                                                 <state key="normal" title="Button" image="BackButton"/>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="BPo-Bw-rm3"/>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="BPo-Bw-rm3"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vbU-hz-nNr"/>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.80000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="NPi-c2-GTe" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="70" id="1fo-z1-2ty"/>
+                                            <constraint firstItem="NPi-c2-GTe" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="80" id="1fo-z1-2ty"/>
                                             <constraint firstItem="drD-dj-O8t" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="10" id="9cp-nG-dyY"/>
-                                            <constraint firstItem="kAh-xq-IhY" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="70" id="C09-tp-vw7"/>
+                                            <constraint firstItem="kAh-xq-IhY" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="80" id="C09-tp-vw7"/>
                                             <constraint firstItem="c1G-qv-FFZ" firstAttribute="top" secondItem="vbU-hz-nNr" secondAttribute="bottom" constant="20" id="K2D-iT-oTV"/>
-                                            <constraint firstItem="y1S-15-BFA" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="30" id="PS4-Bd-IT0"/>
+                                            <constraint firstItem="y1S-15-BFA" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="35" id="PS4-Bd-IT0"/>
                                             <constraint firstAttribute="trailing" secondItem="kAh-xq-IhY" secondAttribute="trailing" constant="10" id="PZp-rq-Swp"/>
                                             <constraint firstItem="c1G-qv-FFZ" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="8" id="Pfe-mS-yfe"/>
                                             <constraint firstItem="vbU-hz-nNr" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="7.5" id="QqV-xJ-xsV"/>
@@ -151,7 +151,7 @@
                                             <constraint firstItem="c1G-qv-FFZ" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="500" id="b83-9E-hgb"/>
                                             <constraint firstAttribute="trailing" secondItem="vbU-hz-nNr" secondAttribute="trailing" constant="7.5" id="cTP-88-dQJ"/>
                                             <constraint firstItem="NPi-c2-GTe" firstAttribute="leading" secondItem="SK9-3G-Wrz" secondAttribute="leading" constant="10" id="hek-hk-Cmv"/>
-                                            <constraint firstItem="drD-dj-O8t" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="32" id="m7S-6H-rcK"/>
+                                            <constraint firstItem="drD-dj-O8t" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="37" id="m7S-6H-rcK"/>
                                             <constraint firstItem="y1S-15-BFA" firstAttribute="centerX" secondItem="SK9-3G-Wrz" secondAttribute="centerX" id="uXt-On-Iep"/>
                                             <constraint firstAttribute="bottom" secondItem="c1G-qv-FFZ" secondAttribute="bottom" constant="20" id="w7l-kL-gB4"/>
                                             <constraint firstItem="vbU-hz-nNr" firstAttribute="top" secondItem="SK9-3G-Wrz" secondAttribute="top" constant="120" id="x9k-S2-ERx"/>
@@ -166,7 +166,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.80000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="SK9-3G-Wrz" firstAttribute="width" secondItem="uQC-OQ-sAS" secondAttribute="width" id="DUO-DW-uWv"/>
                             <constraint firstAttribute="trailing" secondItem="uyV-Wc-ffl" secondAttribute="trailing" id="Eh8-dH-cfz"/>
@@ -202,6 +202,6 @@
         <image name="WorldMapImage.png" width="776" height="466"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EDu-b8-dyT"/>
+        <segue reference="0d0-mq-Gnt"/>
     </inferredMetricsTieBreakers>
 </document>
