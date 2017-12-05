@@ -25,10 +25,7 @@
     self.YearLabel.text = self.wonder.Year;
     self.InfoLabel.text = self.wonder.Info;
     
-    if ([WonderName isEqualToString:@"ChichenSegue"]){ // Corresponds to the button being presssed,
-//        UIImage *Image = [UIImage imageNamed:@"ChichenImage.jpg"];
-//        self.WonderImageView.image = Image;
-        
+    if ([WonderName isEqualToString:@"ChichenSegue"]){ // Corresponds to the button being presssed
         UIImage *image1 = [UIImage imageNamed:@"Chichen1.jpg"];
         UIImage *image2 = [UIImage imageNamed:@"Chichen2.jpg"];
         UIImage *image3 = [UIImage imageNamed:@"Chichen3.jpg"];
@@ -37,32 +34,26 @@
         
         // Help from Dr. Craig's site
         self.WonderImageView.animationImages = imageArray;
-        self.WonderImageView.animationRepeatCount = 0; // infinite
-        self.WonderImageView.animationDuration = 4.0; // 1s per loop
+        self.WonderImageView.animationRepeatCount = 0; // Loop doesn't stop, infinite
+        self.WonderImageView.animationDuration = 16.0; // This is the time for the whole loop, 4 seconds per image is ideal so 16 seconds for whole loop.
         
-        [self.WonderImageView startAnimating];
+        [self.WonderImageView startAnimating]; // Initiate the animation with the previous animation properties.
     }
     
     if ([WonderName isEqualToString:@"ColosseumSegue"]){
-        UIImage *Image = [UIImage imageNamed:@"ColosseumImage.jpg"];
-        self.WonderImageView.image = Image;
-        
         UIImage *image1 = [UIImage imageNamed:@"Colosseum1.jpg"];
         UIImage *image2 = [UIImage imageNamed:@"Colosseum2.jpg"];
         UIImage *image3 = [UIImage imageNamed:@"Colosseum3.jpg"];
         UIImage *image4 = [UIImage imageNamed:@"Colosseum4.jpg"];
         UIImage *image5 = [UIImage imageNamed:@"Colosseum5.jpg"];
         UIImage *image6 = [UIImage imageNamed:@"Colosseum.jpg"];
-
         NSArray *imageArray = @[image1,image2,image3,image4,image5,image6];
         
-        // Help from Dr. Craig's site
         self.WonderImageView.animationImages = imageArray;
-        self.WonderImageView.animationRepeatCount = 0; // infinite
-        self.WonderImageView.animationDuration = 4.0; // 1s per loop
+        self.WonderImageView.animationRepeatCount = 0;
+        self.WonderImageView.animationDuration = 24.0;
         
         [self.WonderImageView startAnimating];
-
     }
     
     if ([WonderName isEqualToString:@"GreatSegue"]){
@@ -71,13 +62,11 @@
         UIImage *image1 = [UIImage imageNamed:@"Great1.jpg"];
         UIImage *image2 = [UIImage imageNamed:@"Great2.jpg"];
         UIImage *image3 = [UIImage imageNamed:@"Great3.jpg"];
-        
         NSArray *imageArray = @[image1,image2,image3];
         
-        // Help from Dr. Craig's site
         self.WonderImageView.animationImages = imageArray;
-        self.WonderImageView.animationRepeatCount = 0; // infinite
-        self.WonderImageView.animationDuration = 4.0; // 1s per loop
+        self.WonderImageView.animationRepeatCount = 0;
+        self.WonderImageView.animationDuration = 12.0;
         
         [self.WonderImageView startAnimating];
     }
@@ -85,16 +74,47 @@
     if ([WonderName isEqualToString:@"MachuSegue"]){
         UIImage *Image = [UIImage imageNamed:@"MachuImage.jpg"];
         self.WonderImageView.image = Image;
+        UIImage *image1 = [UIImage imageNamed:@"Machu1.jpg"];
+        UIImage *image2 = [UIImage imageNamed:@"Machu2.jpg"];
+        UIImage *image3 = [UIImage imageNamed:@"Machu3.jpg"];
+        UIImage *image4 = [UIImage imageNamed:@"Machu4.jpg"];
+        NSArray *imageArray = @[image1,image2,image3,image4];
+        
+        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationRepeatCount = 0;
+        self.WonderImageView.animationDuration = 16.0;
+        
+        [self.WonderImageView startAnimating];
     }
     
     if ([WonderName isEqualToString:@"PyramidsSegue"]){
         UIImage *Image = [UIImage imageNamed:@"PyramidsImage.jpg"];
         self.WonderImageView.image = Image;
+        UIImage *image1 = [UIImage imageNamed:@"Pyramids1.jpg"];
+        UIImage *image2 = [UIImage imageNamed:@"Pyramids2.jpg"];
+        UIImage *image3 = [UIImage imageNamed:@"Pyramids3.jpg"];
+        NSArray *imageArray = @[image1,image2,image3];
+        
+        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationRepeatCount = 0;
+        self.WonderImageView.animationDuration = 12.0;
+        [self.WonderImageView startAnimating];
     }
     
     if ([WonderName isEqualToString:@"PetraSegue"]){
         UIImage *Image = [UIImage imageNamed:@"PetraImage.jpg"];
         self.WonderImageView.image = Image;
+        UIImage *image1 = [UIImage imageNamed:@"Petra1.jpg"];
+        UIImage *image2 = [UIImage imageNamed:@"Petra2.jpg"];
+        UIImage *image3 = [UIImage imageNamed:@"Petra3.jpg"];
+        UIImage *image4 = [UIImage imageNamed:@"Petra4.jpg"];
+        NSArray *imageArray = @[image1,image2,image3,image4];
+        
+        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationRepeatCount = 0;
+        self.WonderImageView.animationDuration = 16.0;
+        
+        [self.WonderImageView startAnimating];
     }
     
     
