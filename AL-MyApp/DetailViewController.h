@@ -16,7 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *LocationLabel;
 @property (weak, nonatomic) IBOutlet UILabel *YearLabel;
 @property (weak, nonatomic) IBOutlet UILabel *InfoLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *WonderImage;
+@property (weak, nonatomic) IBOutlet UIImageView *WonderImageView;
 
 @property (strong ,nonatomic) NSString *WonderName;
 @property (strong, nonatomic) Wonder *wonder;

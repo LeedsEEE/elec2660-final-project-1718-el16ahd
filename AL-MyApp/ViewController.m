@@ -39,11 +39,9 @@
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:0];
         DestinationViewController.wonder = tempWonder;
         
-        self.SegueIdentifier = @"ChichenSegue"; // "SegueIdentifier" String is same as actual button's segue identifier for convenience
-        DestinationViewController.WonderName = self.SegueIdentifier; // WonderName is a String property of DetailViewController 
+        self.SegueIdentifier = @"ChichenSegue";                      // "SegueIdentifier" string is same as actual button's segue identifier for convenience
+        DestinationViewController.WonderName = self.SegueIdentifier; // WonderName is a String property of DetailViewController
     }
-    
-    
     
     if ([[segue identifier] isEqualToString:@"ColosseumSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:1];
@@ -53,8 +51,6 @@
         DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
-    
-    
     if ([[segue identifier] isEqualToString:@"GreatSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:2];
         DestinationViewController.wonder = tempWonder;
@@ -62,8 +58,6 @@
         self.SegueIdentifier = @"GreatSegue";
         DestinationViewController.WonderName = self.SegueIdentifier;
     }
-    
-    
     
     if ([[segue identifier] isEqualToString:@"MachuSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:3];
@@ -73,8 +67,6 @@
         DestinationViewController.WonderName = self.SegueIdentifier;
     }
     
-    
-    
     if ([[segue identifier] isEqualToString:@"PyramidsSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:4];
         DestinationViewController.wonder = tempWonder;
@@ -82,8 +74,6 @@
         self.SegueIdentifier = @"PyramidsSegue";
         DestinationViewController.WonderName = self.SegueIdentifier;
     }
-    
-    
     
     if ([[segue identifier] isEqualToString:@"PetraSegue"]){
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:5];

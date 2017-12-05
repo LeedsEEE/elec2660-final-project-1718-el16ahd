@@ -182,7 +182,7 @@
                         <outlet property="InfoLabel" destination="c1G-qv-FFZ" id="McG-qu-pYP"/>
                         <outlet property="LocationLabel" destination="NPi-c2-GTe" id="NfO-eO-bsf"/>
                         <outlet property="NameLabel" destination="y1S-15-BFA" id="Z0S-4z-4w8"/>
-                        <outlet property="WonderImage" destination="vbU-hz-nNr" id="fIU-i6-P3h"/>
+                        <outlet property="WonderImageView" destination="vbU-hz-nNr" id="f44-AV-3ed"/>
                         <outlet property="YearLabel" destination="kAh-xq-IhY" id="yPn-QO-ABT"/>
                     </connections>
                 </viewController>
