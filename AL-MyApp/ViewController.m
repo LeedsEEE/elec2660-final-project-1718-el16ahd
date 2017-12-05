@@ -24,12 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-// 2) Below are the corresponding codes of the buttons on the home screen.
-//    pressing the button will activate the code inside the curly brackets.
-
-
-#pragma mark - Button pressed segues
+#pragma mark - Button Segues
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 
@@ -45,7 +40,7 @@
         DestinationViewController.wonder = tempWonder;
         
         self.SegueIdentifier = @"ChichenSegue"; // "SegueIdentifier" String is same as actual button's segue identifier for convenience
-        DestinationViewController.WonderName = self.SegueIdentifier;
+        DestinationViewController.WonderName = self.SegueIdentifier; // WonderName is a String property of DetailViewController 
     }
     
     
@@ -99,6 +94,10 @@
     }
     
 }
+
+
+
+#pragma mark - Button Activate Code
 
 - (IBAction)PyramidsButton:(UIButton *)sender {
 }
