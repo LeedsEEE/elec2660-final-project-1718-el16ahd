@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,75 +19,87 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTt-Uw-9y9">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTt-Uw-9y9">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YTt-Uw-9y9" secondAttribute="height" multiplier="1:1" id="RSb-ga-LUI"/>
+                                </constraints>
                                 <state key="normal" image="ColosseumButton"/>
                                 <connections>
                                     <action selector="ColosseumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zkc-kM-2ax"/>
                                     <segue destination="5UW-mD-hrV" kind="presentation" identifier="ColosseumSegue" modalTransitionStyle="partialCurl" id="J3F-og-t1F"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpg-dn-t4t">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpg-dn-t4t">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lpg-dn-t4t" secondAttribute="height" multiplier="1:1" id="Llf-pB-rfk"/>
+                                </constraints>
                                 <state key="normal" image="GreatButton"/>
                                 <connections>
                                     <action selector="GreatButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3c-iN-OYD"/>
                                     <segue destination="5UW-mD-hrV" kind="presentation" identifier="GreatSegue" modalTransitionStyle="partialCurl" id="0d0-mq-Gnt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz8-rn-vE4">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz8-rn-vE4">
                                 <state key="normal" image="MachuButton"/>
                                 <connections>
                                     <action selector="MachuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2pk-Ia-fGd"/>
                                     <segue destination="5UW-mD-hrV" kind="presentation" identifier="MachuSegue" modalTransitionStyle="partialCurl" id="K09-lh-K3a"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9z9-Ms-PPj">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9z9-Ms-PPj">
                                 <state key="normal" image="PyramidsButton"/>
                                 <connections>
                                     <action selector="PyramidsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4C-3J-uBy"/>
                                     <segue destination="5UW-mD-hrV" kind="presentation" identifier="PyramidsSegue" modalTransitionStyle="partialCurl" id="EDu-b8-dyT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWg-KA-QWx">
-                                <state key="normal" image="PetraButton"/>
-                                <connections>
-                                    <action selector="PetraButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sie-L3-z8J"/>
-                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="PetraSegue" modalTransitionStyle="partialCurl" id="1tm-i9-MNB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qua-e7-GQm">
+                            <button opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="150" verticalHuggingPriority="150" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qua-e7-GQm">
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Qua-e7-GQm" secondAttribute="height" multiplier="1:1" id="1iW-Co-w8J"/>
+                                </constraints>
                                 <state key="normal" image="ChichenButton"/>
                                 <connections>
                                     <action selector="ChichenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HvY-cV-8pZ"/>
                                     <segue destination="5UW-mD-hrV" kind="presentation" identifier="ChichenSegue" modalTransitionStyle="partialCurl" id="yDv-MI-ETb"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WorldMapImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="owl-gj-oMp"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WorldMapImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="owl-gj-oMp">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="owl-gj-oMp" secondAttribute="height" multiplier="373:224" id="NZV-xZ-1Sb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWg-KA-QWx">
+                                <state key="normal" image="PetraButton"/>
+                                <connections>
+                                    <action selector="PetraButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sie-L3-z8J"/>
+                                    <segue destination="5UW-mD-hrV" kind="presentation" identifier="PetraSegue" modalTransitionStyle="partialCurl" id="1tm-i9-MNB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.80000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tz8-rn-vE4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-15" id="8x3-Hj-Kcn"/>
-                            <constraint firstItem="owl-gj-oMp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-18" id="9GD-Jh-eIp"/>
-                            <constraint firstItem="owl-gj-oMp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AZe-w0-ceQ"/>
-                            <constraint firstItem="Qua-e7-GQm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-15" id="CXg-Oy-QhY"/>
-                            <constraint firstItem="tz8-rn-vE4" firstAttribute="top" secondItem="owl-gj-oMp" secondAttribute="bottom" id="EJQ-rF-rOc"/>
-                            <constraint firstItem="YTt-Uw-9y9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hc5-qN-W10"/>
-                            <constraint firstItem="owl-gj-oMp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="206" id="LGa-Kz-SZv"/>
-                            <constraint firstItem="9z9-Ms-PPj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MMQ-8O-oHm"/>
-                            <constraint firstItem="owl-gj-oMp" firstAttribute="top" secondItem="lpg-dn-t4t" secondAttribute="bottom" id="NPk-GF-dGA"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="owl-gj-oMp" secondAttribute="bottom" constant="217" id="XwJ-rj-QfD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="owl-gj-oMp" secondAttribute="trailing" constant="-18" id="YbZ-Ga-gaz"/>
-                            <constraint firstItem="hWg-KA-QWx" firstAttribute="top" secondItem="owl-gj-oMp" secondAttribute="bottom" id="dUd-zf-lkt"/>
-                            <constraint firstItem="owl-gj-oMp" firstAttribute="top" secondItem="YTt-Uw-9y9" secondAttribute="bottom" id="eJ7-Fv-Z2K"/>
-                            <constraint firstItem="owl-gj-oMp" firstAttribute="top" secondItem="Qua-e7-GQm" secondAttribute="bottom" id="iIE-c6-W0a"/>
-                            <constraint firstItem="9z9-Ms-PPj" firstAttribute="top" secondItem="owl-gj-oMp" secondAttribute="bottom" id="ld5-mo-m0H"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hWg-KA-QWx" secondAttribute="trailing" constant="-15" id="sSa-so-iEf"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lpg-dn-t4t" secondAttribute="trailing" constant="-15" id="vZU-FF-waE"/>
+                            <constraint firstItem="9z9-Ms-PPj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="013-d2-JsC"/>
+                            <constraint firstAttribute="trailing" secondItem="hWg-KA-QWx" secondAttribute="trailing" constant="2" id="299-vk-5Ph"/>
+                            <constraint firstItem="owl-gj-oMp" firstAttribute="top" secondItem="YTt-Uw-9y9" secondAttribute="bottom" id="9By-4o-VWO"/>
+                            <constraint firstItem="hWg-KA-QWx" firstAttribute="top" secondItem="owl-gj-oMp" secondAttribute="bottom" id="OlO-kh-Yob"/>
+                            <constraint firstItem="tz8-rn-vE4" firstAttribute="top" secondItem="owl-gj-oMp" secondAttribute="bottom" id="Qkz-89-gFr"/>
+                            <constraint firstItem="owl-gj-oMp" firstAttribute="top" secondItem="lpg-dn-t4t" secondAttribute="bottom" id="WmW-he-Fi3"/>
+                            <constraint firstAttribute="trailing" secondItem="lpg-dn-t4t" secondAttribute="trailing" constant="2" id="Yhn-h9-ydc"/>
+                            <constraint firstItem="owl-gj-oMp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="2" id="c1b-mc-gCF"/>
+                            <constraint firstItem="owl-gj-oMp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ceh-2Q-xS0"/>
+                            <constraint firstItem="9z9-Ms-PPj" firstAttribute="top" secondItem="owl-gj-oMp" secondAttribute="bottom" id="j6z-ii-bIq"/>
+                            <constraint firstAttribute="trailing" secondItem="owl-gj-oMp" secondAttribute="trailing" constant="2" id="nO4-ue-6mI"/>
+                            <constraint firstItem="owl-gj-oMp" firstAttribute="top" secondItem="Qua-e7-GQm" secondAttribute="bottom" id="qMD-9R-TrV"/>
+                            <constraint firstItem="tz8-rn-vE4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="2" id="qMw-0P-PVh"/>
+                            <constraint firstItem="Qua-e7-GQm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="2" id="rL5-Nk-Kej"/>
+                            <constraint firstItem="YTt-Uw-9y9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sFm-77-Otr"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+            <point key="canvasLocation" x="21.600000000000001" y="33.733133433283363"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="vl5-7K-LWw">
@@ -202,6 +214,6 @@
         <image name="WorldMapImage.png" width="776" height="466"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0d0-mq-Gnt"/>
+        <segue reference="yDv-MI-ETb"/>
     </inferredMetricsTieBreakers>
 </document>
