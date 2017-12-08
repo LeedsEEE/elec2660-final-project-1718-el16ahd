@@ -11,10 +11,10 @@
 		4A1645A11FD73272007EC97A /* Chichen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1645891FD73272007EC97A /* Chichen2.jpg */; };
 		4A1645A21FD73272007EC97A /* Chichen3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458A1FD73272007EC97A /* Chichen3.jpg */; };
 		4A1645A31FD73272007EC97A /* Chichen4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458B1FD73272007EC97A /* Chichen4.jpg */; };
-		4A1645A41FD73272007EC97A /* Colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458C1FD73272007EC97A /* Colosseum.jpg */; };
+		4A1645A41FD73272007EC97A /* Colosseum1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458C1FD73272007EC97A /* Colosseum1.jpg */; };
 		4A1645A51FD73272007EC97A /* Colosseum3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458D1FD73272007EC97A /* Colosseum3.jpg */; };
 		4A1645A61FD73272007EC97A /* Colosseum2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458E1FD73272007EC97A /* Colosseum2.jpg */; };
-		4A1645A71FD73272007EC97A /* Colosseum1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458F1FD73272007EC97A /* Colosseum1.jpg */; };
+		4A1645A71FD73272007EC97A /* Colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A16458F1FD73272007EC97A /* Colosseum.jpg */; };
 		4A1645A81FD73272007EC97A /* Colosseum4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1645901FD73272007EC97A /* Colosseum4.jpg */; };
 		4A1645A91FD73272007EC97A /* Colosseum5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1645911FD73272007EC97A /* Colosseum5.jpg */; };
 		4A1645AA1FD73272007EC97A /* Great1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A1645921FD73272007EC97A /* Great1.jpg */; };
@@ -67,10 +67,10 @@
 		4A1645891FD73272007EC97A /* Chichen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chichen2.jpg; sourceTree = "<group>"; };
 		4A16458A1FD73272007EC97A /* Chichen3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chichen3.jpg; sourceTree = "<group>"; };
 		4A16458B1FD73272007EC97A /* Chichen4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chichen4.jpg; sourceTree = "<group>"; };
-		4A16458C1FD73272007EC97A /* Colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum.jpg; sourceTree = "<group>"; };
+		4A16458C1FD73272007EC97A /* Colosseum1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum1.jpg; sourceTree = "<group>"; };
 		4A16458D1FD73272007EC97A /* Colosseum3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum3.jpg; sourceTree = "<group>"; };
 		4A16458E1FD73272007EC97A /* Colosseum2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum2.jpg; sourceTree = "<group>"; };
-		4A16458F1FD73272007EC97A /* Colosseum1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum1.jpg; sourceTree = "<group>"; };
+		4A16458F1FD73272007EC97A /* Colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum.jpg; sourceTree = "<group>"; };
 		4A1645901FD73272007EC97A /* Colosseum4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum4.jpg; sourceTree = "<group>"; };
 		4A1645911FD73272007EC97A /* Colosseum5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum5.jpg; sourceTree = "<group>"; };
 		4A1645921FD73272007EC97A /* Great1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Great1.jpg; sourceTree = "<group>"; };
@@ -144,10 +144,10 @@
 				4A1645891FD73272007EC97A /* Chichen2.jpg */,
 				4A16458A1FD73272007EC97A /* Chichen3.jpg */,
 				4A16458B1FD73272007EC97A /* Chichen4.jpg */,
-				4A16458C1FD73272007EC97A /* Colosseum.jpg */,
+				4A16458C1FD73272007EC97A /* Colosseum1.jpg */,
 				4A16458D1FD73272007EC97A /* Colosseum3.jpg */,
 				4A16458E1FD73272007EC97A /* Colosseum2.jpg */,
-				4A16458F1FD73272007EC97A /* Colosseum1.jpg */,
+				4A16458F1FD73272007EC97A /* Colosseum.jpg */,
 				4A1645901FD73272007EC97A /* Colosseum4.jpg */,
 				4A1645911FD73272007EC97A /* Colosseum5.jpg */,
 				4A1645921FD73272007EC97A /* Great1.jpg */,
@@ -365,10 +365,10 @@
 				4A1645A51FD73272007EC97A /* Colosseum3.jpg in Resources */,
 				4A1645AC1FD73272007EC97A /* Great3.jpg in Resources */,
 				4A1645B71FD73272007EC97A /* Pyramids3.jpg in Resources */,
-				4A1645A71FD73272007EC97A /* Colosseum1.jpg in Resources */,
+				4A1645A71FD73272007EC97A /* Colosseum.jpg in Resources */,
 				4AB2A2311FBCCD9A001EAD8E /* Main.storyboard in Resources */,
 				4A1645B11FD73272007EC97A /* Petra4.jpg in Resources */,
-				4A1645A41FD73272007EC97A /* Colosseum.jpg in Resources */,
+				4A1645A41FD73272007EC97A /* Colosseum1.jpg in Resources */,
 				4A1645A81FD73272007EC97A /* Colosseum4.jpg in Resources */,
 				4A1645AB1FD73272007EC97A /* Great2.jpg in Resources */,
 				4A1645A11FD73272007EC97A /* Chichen2.jpg in Resources */,

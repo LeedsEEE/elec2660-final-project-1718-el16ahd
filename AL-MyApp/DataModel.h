@@ -11,6 +11,6 @@
 
 @interface DataModel : NSObject
 
-@property (strong, nonatomic) NSMutableArray *WonderArray; // Creating an array "NSMutableArray" and giving it the name "WonderArray" for easy reference.
+@property (strong, nonatomic) NSMutableArray *WonderArray; // Creating an array "NSMutableArray" and giving it the name "WonderArray" for easy reference. We will define the indexes of the different wonders in the DataModel.m file.
 
 @end

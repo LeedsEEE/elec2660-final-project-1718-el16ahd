@@ -15,112 +15,109 @@
 
 @implementation DetailViewController
 
-@synthesize  WonderName;
+@synthesize  WonderName; // Allows the calling of WonderName directly without using "self." and the use of it in other methods
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+#pragma mark - Labels Receiving Data
+
     // The following 4 lines of code makes the labels in the DetailViewController able to accept the wonder data;
     self.NameLabel.text     = self.wonder.Name;
     self.LocationLabel.text = self.wonder.Location;
     self.YearLabel.text     = self.wonder.Year;
     self.InfoLabel.text     = self.wonder.Info;
     
-    // The following if statements 
+    
+#pragma mark - Image Arrays
+
+    // The following if statements activate image arrays in the detail view when a wonder button is pressed.
+    
     if ([WonderName isEqualToString:@"ChichenSegue"]){ // Corresponds to the button being presssed
-        UIImage *image1 = [UIImage imageNamed:@"Chichen1.jpg"];
-        UIImage *image2 = [UIImage imageNamed:@"Chichen2.jpg"];
-        UIImage *image3 = [UIImage imageNamed:@"Chichen3.jpg"];
-        UIImage *image4 = [UIImage imageNamed:@"Chichen4.jpg"];
-        NSArray *imageArray = @[image1,image2,image3,image4];
+        // saving 
+        UIImage *Chichen1     = [UIImage imageNamed:@"Chichen1.jpg"];
+        UIImage *Chichen2     = [UIImage imageNamed:@"Chichen2.jpg"];
+        UIImage *Chichen3     = [UIImage imageNamed:@"Chichen3.jpg"];
+        UIImage *Chichen4     = [UIImage imageNamed:@"Chichen4.jpg"];
+        NSArray *ChichenImageArray = @[Chichen1,Chichen2,Chichen3,Chichen4];
         
-        // Help from Dr. Craig's site
-        self.WonderImageView.animationImages = imageArray;
+        // (1)
+        self.WonderImageView.animationImages      = ChichenImageArray;
         self.WonderImageView.animationRepeatCount = 0; // Loop doesn't stop, infinite
-        self.WonderImageView.animationDuration = 16.0; // This is the time for the whole loop, 4 seconds per image is ideal so 16 seconds for whole loop.
+        self.WonderImageView.animationDuration    = 4*ChichenImageArray.count; // This is the time for the whole loop, 4 seconds per image is ideal, so 4 multiplied by the number of images in the array is the total time per loop.
         
         [self.WonderImageView startAnimating]; // Initiate the animation with the previous animation properties.
     }
     
     if ([WonderName isEqualToString:@"ColosseumSegue"]){
-        UIImage *image1 = [UIImage imageNamed:@"Colosseum1.jpg"];
-        UIImage *image2 = [UIImage imageNamed:@"Colosseum2.jpg"];
-        UIImage *image3 = [UIImage imageNamed:@"Colosseum3.jpg"];
-        UIImage *image4 = [UIImage imageNamed:@"Colosseum4.jpg"];
-        UIImage *image5 = [UIImage imageNamed:@"Colosseum5.jpg"];
-        UIImage *image6 = [UIImage imageNamed:@"Colosseum.jpg"];
-        NSArray *imageArray = @[image1,image2,image3,image4,image5,image6];
+        UIImage *Colosseum1     = [UIImage imageNamed:@"Colosseum.jpg"];
+        UIImage *Colosseum2     = [UIImage imageNamed:@"Colosseum1.jpg"];
+        UIImage *Colosseum3     = [UIImage imageNamed:@"Colosseum2.jpg"];
+        UIImage *Colosseum4     = [UIImage imageNamed:@"Colosseum3.jpg"];
+        UIImage *Colosseum5     = [UIImage imageNamed:@"Colosseum4.jpg"];
+        UIImage *Colosseum6     = [UIImage imageNamed:@"Colosseum5.jpg"];
+        NSArray *ColosseumImageArray = @[Colosseum1,Colosseum2,Colosseum3,Colosseum4,Colosseum5,Colosseum6];
         
-        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationImages      = ColosseumImageArray;
         self.WonderImageView.animationRepeatCount = 0;
-        self.WonderImageView.animationDuration = 24.0;
+        self.WonderImageView.animationDuration    = 4*ColosseumImageArray.count;
         
         [self.WonderImageView startAnimating];
     }
     
     if ([WonderName isEqualToString:@"GreatSegue"]){
-        UIImage *Image = [UIImage imageNamed:@"GreatImage.jpg"];
-        self.WonderImageView.image = Image;
-        UIImage *image1 = [UIImage imageNamed:@"Great1.jpg"];
-        UIImage *image2 = [UIImage imageNamed:@"Great2.jpg"];
-        UIImage *image3 = [UIImage imageNamed:@"Great3.jpg"];
-        NSArray *imageArray = @[image1,image2,image3];
+        UIImage *Great1     = [UIImage imageNamed:@"Great1.jpg"];
+        UIImage *Great2     = [UIImage imageNamed:@"Great2.jpg"];
+        UIImage *Great3     = [UIImage imageNamed:@"Great3.jpg"];
+        NSArray *GreatImageArray = @[Great1,Great2,Great3];
         
-        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationImages      = GreatImageArray;
         self.WonderImageView.animationRepeatCount = 0;
-        self.WonderImageView.animationDuration = 12.0;
+        self.WonderImageView.animationDuration    = 4*GreatImageArray.count;
         
         [self.WonderImageView startAnimating];
     }
     
     if ([WonderName isEqualToString:@"MachuSegue"]){
-        UIImage *Image = [UIImage imageNamed:@"MachuImage.jpg"];
-        self.WonderImageView.image = Image;
-        UIImage *image1 = [UIImage imageNamed:@"Machu1.jpg"];
-        UIImage *image2 = [UIImage imageNamed:@"Machu2.jpg"];
-        UIImage *image3 = [UIImage imageNamed:@"Machu3.jpg"];
-        UIImage *image4 = [UIImage imageNamed:@"Machu4.jpg"];
-        NSArray *imageArray = @[image1,image2,image3,image4];
+        UIImage *Machu1     = [UIImage imageNamed:@"Machu1.jpg"];
+        UIImage *Machu2     = [UIImage imageNamed:@"Machu2.jpg"];
+        UIImage *Machu3     = [UIImage imageNamed:@"Machu3.jpg"];
+        UIImage *Machu4     = [UIImage imageNamed:@"Machu4.jpg"];
+        NSArray *MachuImageArray = @[Machu1,Machu2,Machu3,Machu4];
         
-        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationImages      = MachuImageArray;
         self.WonderImageView.animationRepeatCount = 0;
-        self.WonderImageView.animationDuration = 16.0;
+        self.WonderImageView.animationDuration    = 4*MachuImageArray.count;
         
         [self.WonderImageView startAnimating];
     }
     
     if ([WonderName isEqualToString:@"PyramidsSegue"]){
-        UIImage *Image = [UIImage imageNamed:@"PyramidsImage.jpg"];
-        self.WonderImageView.image = Image;
-        UIImage *image1 = [UIImage imageNamed:@"Pyramids1.jpg"];
-        UIImage *image2 = [UIImage imageNamed:@"Pyramids2.jpg"];
-        UIImage *image3 = [UIImage imageNamed:@"Pyramids3.jpg"];
-        NSArray *imageArray = @[image1,image2,image3];
+        UIImage *Pyramids1     = [UIImage imageNamed:@"Pyramids1.jpg"];
+        UIImage *Pyramids2     = [UIImage imageNamed:@"Pyramids2.jpg"];
+        UIImage *Pyramids3     = [UIImage imageNamed:@"Pyramids3.jpg"];
+        NSArray *PyramidsImageArray = @[Pyramids1,Pyramids2,Pyramids3];
         
-        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationImages      = PyramidsImageArray;
         self.WonderImageView.animationRepeatCount = 0;
-        self.WonderImageView.animationDuration = 12.0;
+        self.WonderImageView.animationDuration    = 4*PyramidsImageArray.count;
         [self.WonderImageView startAnimating];
     }
     
     if ([WonderName isEqualToString:@"PetraSegue"]){
-        UIImage *Image = [UIImage imageNamed:@"PetraImage.jpg"];
-        self.WonderImageView.image = Image;
-        UIImage *image1 = [UIImage imageNamed:@"Petra1.jpg"];
-        UIImage *image2 = [UIImage imageNamed:@"Petra2.jpg"];
-        UIImage *image3 = [UIImage imageNamed:@"Petra3.jpg"];
-        UIImage *image4 = [UIImage imageNamed:@"Petra4.jpg"];
-        NSArray *imageArray = @[image1,image2,image3,image4];
+        UIImage *Petra1     = [UIImage imageNamed:@"Petra1.jpg"];
+        UIImage *Petra2     = [UIImage imageNamed:@"Petra2.jpg"];
+        UIImage *Petra3     = [UIImage imageNamed:@"Petra3.jpg"];
+        UIImage *Petra4     = [UIImage imageNamed:@"Petra4.jpg"];
+        NSArray *PetraImageArray = @[Petra1,Petra2,Petra3,Petra4];
         
-        self.WonderImageView.animationImages = imageArray;
+        self.WonderImageView.animationImages      = PetraImageArray;
         self.WonderImageView.animationRepeatCount = 0;
-        self.WonderImageView.animationDuration = 16.0;
+        self.WonderImageView.animationDuration    = 4*PetraImageArray.count;
         
         [self.WonderImageView startAnimating];
     }
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -128,15 +125,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Navigation
+#pragma mark - References
 
-/*
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
- 
-}
-*/
-
+/* References:
+ (1): Learned from: Dr . Evans' WordPress site; https://eencae.wordpress.com/ios-tutorials/uikit/data-views/uiimageview/
+ (2):
+ (3):
+ (4):
+ (5):
+ (6):
+ (7):
+ */
 @end
