@@ -24,7 +24,7 @@
 - (IBAction)PetraButton:(UIButton *)sender;
 
 @property (weak , nonatomic) NSString *SegueIdentifier1; // Created placeholder named "SegueIdentifier" of type NSString to use later when calling up image arrays for each wonder's detail view.
-@property (strong, nonatomic) DataModel *data; //
+@property (strong, nonatomic) DataModel *data; // Create an instance of the DataModel class to be used to obtain WonderArray ino
 
 @end
 
