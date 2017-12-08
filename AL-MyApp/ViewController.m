@@ -15,7 +15,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad]; // Do any setup right after view comes up:
-    self.data = [[DataModel alloc]init];
+    
+    self.data = [[DataModel alloc]init]; // need this to refer to WonderArray
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,7 +42,8 @@
     
     
     // I have identified each speceific segue in the storyboard by giving it a segue identifier
-    // When a button is pressed, that segue identifier will be used to activate the code inside the if statemetents:
+    // When a button is pressed, that segue identifier will be used to activate the code inside the following if statemetents:
+    
     if ([[segue identifier] isEqualToString:@"ChichenSegue"]){
         
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:0];
@@ -51,53 +53,77 @@
         // Make tempWonder = wonder, so wonder can be used to populate labels
         
         self.SegueIdentifier1 = @"ChichenSegue";
-        // We need this to
-        // "SegueIdentifier1" string is the same as actual button's segue identifier for convenience,
+        // "SegueIdentifier1" string is the same as actual button's segue identifier for convenience
+        // We will equate its string to SegueIdentifier2.
         
-        DestinationViewController.WonderName = self.SegueIdentifier1;
-        // WonderName is a String property of DetailViewController
+        DestinationViewController.SegueIdentifier2 = self.SegueIdentifier1;
+        // SegueIdentifier2 is a string property of DetailViewController, it will be used
+        // in DetailViewController.m to know which button has been pressed.
+        
+        NSLog(@"Chichen button has been pressed");
+        // Helps visualise navigation in the output.
     }
     
     
     
     if ([[segue identifier] isEqualToString:@"ColosseumSegue"]){
+        
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:1];
         DestinationViewController.wonder = tempWonder;
         
         self.SegueIdentifier1 = @"ColosseumSegue";
-        DestinationViewController.WonderName = self.SegueIdentifier1;
+        DestinationViewController.SegueIdentifier2 = self.SegueIdentifier1;
+        
+        NSLog(@"Colosseum button has been pressed");
+        
     }
     
     if ([[segue identifier] isEqualToString:@"GreatSegue"]){
+        
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:2];
         DestinationViewController.wonder = tempWonder;
         
         self.SegueIdentifier1 = @"GreatSegue";
-        DestinationViewController.WonderName = self.SegueIdentifier1;
+        DestinationViewController.SegueIdentifier2 = self.SegueIdentifier1;
+        
+        NSLog(@"Great button has been pressed");
+        
     }
     
     if ([[segue identifier] isEqualToString:@"MachuSegue"]){
+        
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:3];
         DestinationViewController.wonder = tempWonder;
         
         self.SegueIdentifier1 = @"MachuSegue";
-        DestinationViewController.WonderName = self.SegueIdentifier1;
+        DestinationViewController.SegueIdentifier2 = self.SegueIdentifier1;
+        
+        NSLog(@"Machu button has been pressed");
+        
     }
     
     if ([[segue identifier] isEqualToString:@"PyramidsSegue"]){
+        
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:4];
         DestinationViewController.wonder = tempWonder;
         
         self.SegueIdentifier1 = @"PyramidsSegue";
-        DestinationViewController.WonderName = self.SegueIdentifier1;
+        DestinationViewController.SegueIdentifier2 = self.SegueIdentifier1;
+        
+        NSLog(@"Pyramids button has been pressed");
+        
     }
     
     if ([[segue identifier] isEqualToString:@"PetraSegue"]){
+        
         Wonder *tempWonder = [self.data.WonderArray objectAtIndex:5];
         DestinationViewController.wonder = tempWonder;
         
         self.SegueIdentifier1 = @"PetraSegue";
-        DestinationViewController.WonderName = self.SegueIdentifier1;
+        DestinationViewController.SegueIdentifier2 = self.SegueIdentifier1;
+        
+        NSLog(@"Petra button has been pressed");
+        
     }
     
 }
@@ -121,17 +147,3 @@
 
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-

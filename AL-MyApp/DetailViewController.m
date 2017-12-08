@@ -15,7 +15,7 @@
 
 @implementation DetailViewController
 
-@synthesize  WonderName; // Allows the calling of WonderName directly without using "self." and the use of it in other methods
+@synthesize  SegueIdentifier2; // Allows the calling of SegueIdentifier2 directly without using "self." and the use of it in other methods
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,7 +34,7 @@
 
     // The following if statements activate image arrays in the detail view when a wonder button is pressed.
     
-    if ([WonderName isEqualToString:@"ChichenSegue"]){ // Corresponds to the button being presssed
+    if ([SegueIdentifier2 isEqualToString:@"ChichenSegue"]){ // Corresponds to the button being presssed
         // saving 
         UIImage *Chichen1     = [UIImage imageNamed:@"Chichen1.jpg"];
         UIImage *Chichen2     = [UIImage imageNamed:@"Chichen2.jpg"];
@@ -50,7 +50,7 @@
         [self.WonderImageView startAnimating]; // Initiate the animation with the previous animation properties.
     }
     
-    if ([WonderName isEqualToString:@"ColosseumSegue"]){
+    if ([SegueIdentifier2 isEqualToString:@"ColosseumSegue"]){
         UIImage *Colosseum1     = [UIImage imageNamed:@"Colosseum.jpg"];
         UIImage *Colosseum2     = [UIImage imageNamed:@"Colosseum1.jpg"];
         UIImage *Colosseum3     = [UIImage imageNamed:@"Colosseum2.jpg"];
@@ -66,7 +66,7 @@
         [self.WonderImageView startAnimating];
     }
     
-    if ([WonderName isEqualToString:@"GreatSegue"]){
+    if ([SegueIdentifier2 isEqualToString:@"GreatSegue"]){
         UIImage *Great1     = [UIImage imageNamed:@"Great1.jpg"];
         UIImage *Great2     = [UIImage imageNamed:@"Great2.jpg"];
         UIImage *Great3     = [UIImage imageNamed:@"Great3.jpg"];
@@ -79,7 +79,7 @@
         [self.WonderImageView startAnimating];
     }
     
-    if ([WonderName isEqualToString:@"MachuSegue"]){
+    if ([SegueIdentifier2 isEqualToString:@"MachuSegue"]){
         UIImage *Machu1     = [UIImage imageNamed:@"Machu1.jpg"];
         UIImage *Machu2     = [UIImage imageNamed:@"Machu2.jpg"];
         UIImage *Machu3     = [UIImage imageNamed:@"Machu3.jpg"];
@@ -93,7 +93,7 @@
         [self.WonderImageView startAnimating];
     }
     
-    if ([WonderName isEqualToString:@"PyramidsSegue"]){
+    if ([SegueIdentifier2 isEqualToString:@"PyramidsSegue"]){
         UIImage *Pyramids1     = [UIImage imageNamed:@"Pyramids1.jpg"];
         UIImage *Pyramids2     = [UIImage imageNamed:@"Pyramids2.jpg"];
         UIImage *Pyramids3     = [UIImage imageNamed:@"Pyramids3.jpg"];
@@ -105,7 +105,7 @@
         [self.WonderImageView startAnimating];
     }
     
-    if ([WonderName isEqualToString:@"PetraSegue"]){
+    if ([SegueIdentifier2 isEqualToString:@"PetraSegue"]){
         UIImage *Petra1     = [UIImage imageNamed:@"Petra1.jpg"];
         UIImage *Petra2     = [UIImage imageNamed:@"Petra2.jpg"];
         UIImage *Petra3     = [UIImage imageNamed:@"Petra3.jpg"];

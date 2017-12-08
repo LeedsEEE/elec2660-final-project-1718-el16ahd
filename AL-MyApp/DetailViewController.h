@@ -24,7 +24,7 @@
 //
 @property (strong, nonatomic) Wonder *wonder;
 
-//
-@property (strong ,nonatomic) NSString *WonderName;
+// Needed to equate with SegueIdentifier1
+@property (strong ,nonatomic) NSString *SegueIdentifier2;
 
 @end
