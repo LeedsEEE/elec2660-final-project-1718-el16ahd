@@ -13,7 +13,7 @@
 
 @interface ViewController : UIViewController
 
-// 1) Connected the buttons in the storyboard to this file (ViewController.h) in order to get them to activate code
+// 1) Connected the buttons in the ViewController to this file (ViewController.h)
 //    which will be written in the ViewController.m
 
 - (IBAction)ChichenButton:(UIButton *)sender;
@@ -23,8 +23,8 @@
 - (IBAction)PyramidsButton:(UIButton *)sender;
 - (IBAction)PetraButton:(UIButton *)sender;
 
-@property (weak , nonatomic) NSString *SegueIdentifier; // Created placeholder named "SegueIdentifier" of type NSString to use later when calling up different images for each wonder's detail view.
-@property (strong, nonatomic) DataModel *data;
+@property (weak , nonatomic) NSString *SegueIdentifier; // Created placeholder named "SegueIdentifier" of type NSString to use later when calling up image arrays for each wonder's detail view.
+@property (strong, nonatomic) DataModel *data; //
 
 @end
 

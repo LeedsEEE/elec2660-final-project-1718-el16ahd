@@ -10,11 +10,11 @@
 
 @interface Wonder : NSObject
 
+// Here I have given the Wonder class the following properties that each wonder object will have.
 
-@property (strong, nonatomic) NSString *Name;
-@property (strong, nonatomic) NSString *Location;
-@property (strong, nonatomic) NSString *Year;
-@property (strong, nonatomic) NSString *Info;
-
+@property (strong, nonatomic) NSString *Name;     // Name of the wonder
+@property (strong, nonatomic) NSString *Location; // Location of the wonder in the world
+@property (strong, nonatomic) NSString *Year;     // Year the wonder was constructed in
+@property (strong, nonatomic) NSString *Info;     // Brief information about the wonder
 
 @end

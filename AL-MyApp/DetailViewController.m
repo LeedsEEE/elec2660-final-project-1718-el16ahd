@@ -14,17 +14,20 @@
 @end
 
 @implementation DetailViewController
+
 @synthesize  WonderName;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.NameLabel.text = self.wonder.Name;
+    // The following 4 lines of code makes the labels in the DetailViewController able to accept the wonder data;
+    self.NameLabel.text     = self.wonder.Name;
     self.LocationLabel.text = self.wonder.Location;
-    self.YearLabel.text = self.wonder.Year;
-    self.InfoLabel.text = self.wonder.Info;
+    self.YearLabel.text     = self.wonder.Year;
+    self.InfoLabel.text     = self.wonder.Info;
     
+    // The following if statements 
     if ([WonderName isEqualToString:@"ChichenSegue"]){ // Corresponds to the button being presssed
         UIImage *image1 = [UIImage imageNamed:@"Chichen1.jpg"];
         UIImage *image2 = [UIImage imageNamed:@"Chichen2.jpg"];
