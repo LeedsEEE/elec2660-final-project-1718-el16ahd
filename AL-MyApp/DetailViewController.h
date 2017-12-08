@@ -21,7 +21,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *WonderImageView;
 
 
-//
 @property (strong, nonatomic) Wonder *wonder;
 
 // Needed to equate with SegueIdentifier1
